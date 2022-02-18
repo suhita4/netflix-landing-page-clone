@@ -129,6 +129,7 @@
 .section {
   background-color: black;
   display: flex;
+  justify-content: space-between;
   height: 500px;
   padding: 0px 80px;
 }
@@ -151,15 +152,22 @@
 }
 
 .sectionMedia {
-  overflow: hidden;
   position: relative;
-  width: 80%;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 500px;
 }
 
-.sectionMedia img {
-  position: absolute;
-  width: 100%;
+.img1 {
+  position: relative;
+  height: 350px;
+}
+
+.img2 {
+  height: 100%;
+  width: auto;
 }
 
 .video1 {
@@ -174,8 +182,9 @@
   width: 61%;
 }
 
-.img2 {
+.img3 {
   margin-top: 6%;
+  height: 450px;
 }
 
 .faq {
@@ -401,6 +410,18 @@
   .getStarted {
     font-size: 24px;
   }
+  .sectionMedia {
+    height: 400px;
+  }
+  .img1 {
+    height: 75%;
+  }
+  .img2 {
+    height: 85%;
+  }
+  .img3 {
+    height: 90%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -417,12 +438,21 @@
   .emailInput {
     width: 60%;
   }
-  .sectionMedia {
-    padding-top: 40px;
-  }
   .getStarted {
     padding: 12px 30px;
     font-size: 22px;
+  }
+  .sectionMedia {
+    height: 400px;
+  }
+  .img1 {
+    height: 60%;
+  }
+  .img2 {
+    height: 80%;
+  }
+  .img3 {
+    height: 70%;
   }
 }
 
@@ -470,6 +500,18 @@
   .answer p {
     font-size: 24px;
     padding: 25px;
+  }
+  .sectionMedia {
+    height: 350px;
+  }
+  .img1 {
+    height: 55%;
+  }
+  .img2 {
+    height: 85%;
+  }
+  .img3 {
+    height: 70%;
   }
 }
 
@@ -640,6 +682,7 @@
   }
   .section {
     height: 300px;
+    padding: 0px 60px;
   }
   .sectionText h2 {
     font-size: 38px;
@@ -647,6 +690,18 @@
   .sectionText p {
     font-size: 18px;
     font-weight: 500;
+  }
+  .sectionMedia {
+    height: 300px;
+  }
+  .img1 {
+    height: 75%;
+  }
+  .img2 {
+    height: 85%;
+  }
+  .img3 {
+    height: 90%;
   }
   .getStarted img {
     height: 16px;
@@ -666,12 +721,6 @@
   .answer p {
     font-size: 20px;
     padding: 20px;
-  }
-  .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 400px;
   }
   .p {
     font-size: 16px;
@@ -706,6 +755,7 @@
   }
   .section {
     height: 300px;
+    padding: 0px 50px;
   }
   .sectionText h2 {
     font-size: 36px;
@@ -713,6 +763,18 @@
   .sectionText p {
     font-size: 16px;
     font-weight: 500;
+  }
+  .sectionMedia {
+    height: 300px;
+  }
+  .img1 {
+    height: 75%;
+  }
+  .img2 {
+    height: 85%;
+  }
+  .img3 {
+    height: 90%;
   }
   .getStarted img {
     height: 14px;
@@ -732,29 +794,6 @@
   .answer p {
     font-size: 20px;
     padding: 20px;
-  }
-  .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 400px;
-  }
-  .sectionMedia img {
-    position: absolute;
-    width: 100%;
-  }
-  .video1 {
-    margin-left: 13%;
-    margin-top: 16%;
-    width: 73%;
-  }
-  .video2 {
-    margin-left: 19%;
-    margin-top: 14%;
-    width: 61%;
-  }
-  .img2 {
-    margin-top: 6%;
   }
 }
 
@@ -786,6 +825,7 @@
   }
   .section {
     height: 300px;
+    padding: 0px 50px;
   }
   .sectionText h2 {
     font-size: 32px;
@@ -793,6 +833,18 @@
   .sectionText p {
     font-size: 16px;
     font-weight: 500;
+  }
+  .sectionMedia {
+    height: 300px;
+  }
+  .img1 {
+    height: 65%;
+  }
+  .img2 {
+    height: 75%;
+  }
+  .img3 {
+    height: 65%;
   }
   .getStarted img {
     height: 14px;
@@ -812,12 +864,6 @@
   .answer p {
     font-size: 18px;
     padding: 20px;
-  }
-  .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 400px;
   }
   .p {
     font-size: 14px;
@@ -858,6 +904,7 @@
   }
   .section {
     height: 300px;
+    padding: 0px 50px;
   }
   .sectionText h2 {
     font-size: 32px;
@@ -865,6 +912,18 @@
   .sectionText p {
     font-size: 16px;
     font-weight: 500;
+  }
+  .sectionMedia {
+    height: 300px;
+  }
+  .img1 {
+    height: 55%;
+  }
+  .img2 {
+    height: 75%;
+  }
+  .img3 {
+    height: 60%;
   }
   .getStarted img {
     height: 14px;
@@ -884,12 +943,6 @@
   .answer p {
     font-size: 18px;
     padding: 20px;
-  }
-  .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 400px;
   }
   .p {
     font-size: 14px;
@@ -951,6 +1004,7 @@
   }
   .section {
     height: 250px;
+    padding: 0px 45px;
   }
   .sectionText h2 {
     font-size: 30px;
@@ -958,6 +1012,18 @@
   .sectionText p {
     font-size: 15px;
     font-weight: 500;
+  }
+  .sectionMedia {
+    height: 250px;
+  }
+  .img1 {
+    height: 60%;
+  }
+  .img2 {
+    height: 85%;
+  }
+  .img3 {
+    height: 75%;
   }
   .faq h1 {
     font-size: 30px;
@@ -973,12 +1039,6 @@
   .answer p {
     font-size: 18px;
     padding: 20px;
-  }
-  .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 400px;
   }
   .p {
     font-size: 14px;
@@ -1148,9 +1208,9 @@
   }
   .section {
     flex-direction: column;
-    height: 500px;
+    height: fit-content;
     justify-content: center;
-    padding: 40px 40px;
+    padding: 50px 40px;
   }
   .sectionText {
     text-align: center;
@@ -1165,28 +1225,19 @@
     text-align: center;
     font-weight: 500;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 100%;
+    height: 270px;
   }
-  .sectionMedia img {
-    position: relative;
-    width: 80%;
-    margin-top: -50px;
-    z-index: 4;
-  }
-  .video1 {
-    display: none;
-  }
-  .video2 {
-    display: none;
+  .img1 {
+    height: 100%;
   }
   .img2 {
-    padding-top: 20px;
+    height: 100%;
+  }
+  .img3 {
+    height: 100%;
   }
 }
 
@@ -1251,9 +1302,9 @@
   }
   .section {
     flex-direction: column;
-    height: 500px;
+    height: fit-content;
     justify-content: center;
-    padding: 40px 40px;
+    padding: 50px 30px;
   }
   .sectionText {
     text-align: center;
@@ -1271,25 +1322,16 @@
     margin-bottom: 20px;
   }
   .sectionMedia {
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 100%;
+    height: 280px;
   }
-  .sectionMedia img {
-    position: relative;
-    width: 90%;
-    margin-top: -50px;
-    z-index: 4;
-  }
-  .video1 {
-    display: none;
-  }
-  .video2 {
-    display: none;
+  .img1 {
+    height: 100%;
   }
   .img2 {
-    padding-top: 20px;
+    height: 100%;
+  }
+  .img3 {
+    height: 100%;
   }
 }
 
@@ -1310,9 +1352,6 @@
   .getStarted {
     white-space: nowrap;
     padding: 8px 10px;
-  }
-  .section {
-    height: 450px;
   }
   .loginHeader {
     height: 130vh;
@@ -1418,9 +1457,6 @@
     white-space: nowrap;
     padding: 8px 10px;
   }
-  .section {
-    height: 450px;
-  }
 }
 
 @media (max-width: 360px) {
@@ -1440,9 +1476,6 @@
   .getStarted {
     white-space: nowrap;
     padding: 8px 10px;
-  }
-  .section {
-    height: 450px;
   }
   .faqQuestions {
     width: 80%;
