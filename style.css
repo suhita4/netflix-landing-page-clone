@@ -93,7 +93,7 @@
   margin: auto;
   height: fit-content;
   display: flex;
-  background-color: #fff;
+  background-color: white;
   justify-content: space-between;
 }
 
@@ -119,6 +119,7 @@
   text-align: center;
   padding: 18px 40px;
   cursor: pointer;
+  height: inherit;
 }
 
 .getStarted img {
@@ -408,6 +409,91 @@
   text-decoration: underline;
 }
 
+.loginHeader {
+  height: 130vh;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url(imgs/5.jpg);
+  background-size: cover;
+}
+.container {
+  height: 105vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formBox {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  padding: 30px 35px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.formBox h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.formBox input {
+  height: 45px;
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.formInput {
+  margin-bottom: 15px;
+}
+
+.signInButton {
+  height: 45px;
+  width: 100%;
+  color: #fff;
+  background-color: #e50914;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.newto {
+  font-size: 15px;
+  color: #737373;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.newto a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.newto a:hover {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.recaptcha {
+  font-size: 13px;
+  color: #8c8c8c;
+  width: 100%;
+}
+
 /* Responsive */
 
 @media (max-width: 1150px) {
@@ -459,7 +545,7 @@
     width: 60%;
   }
   .getStarted {
-    padding: 12px 30px;
+    padding: 20px 30px;
     font-size: 22px;
   }
   .sectionMedia {
@@ -493,7 +579,7 @@
     font-size: 14px;
   }
   .getStarted {
-    padding: 10px 26px;
+    padding: 20px 26px;
     font-size: 20px;
   }
   .section {
@@ -552,7 +638,7 @@
     font-size: 14px;
   }
   .getStarted {
-    padding: 10px 24px;
+    padding: 20px 24px;
     font-size: 18px;
   }
   .section {
@@ -697,7 +783,7 @@
     font-size: 14px;
   }
   .getStarted {
-    padding: 10px 24px;
+    padding: 20px 24px;
     font-size: 18px;
   }
   .section {
@@ -770,7 +856,7 @@
     font-size: 14px;
   }
   .getStarted {
-    padding: 10px 24px;
+    padding: 20px 24px;
     font-size: 16px;
   }
   .section {
@@ -840,7 +926,7 @@
     font-size: 14px;
   }
   .getStarted {
-    padding: 10px 24px;
+    padding: 20px 24px;
     font-size: 16px;
   }
   .section {
@@ -919,7 +1005,7 @@
     font-size: 14px;
   }
   .getStarted {
-    padding: 10px 24px;
+    padding: 20px 24px;
     font-size: 16px;
   }
   .section {
@@ -1015,7 +1101,7 @@
     padding: 16px 10px;
   }
   .getStarted {
-    padding: 8px 22px;
+    padding: 16px 22px;
     font-size: 16px;
   }
   .getStarted img {
@@ -1111,7 +1197,7 @@
     padding: 16px 10px;
   }
   .getStarted {
-    padding: 8px 22px;
+    padding: 16px 22px;
     font-size: 16px;
   }
   .getStarted img {
@@ -1197,7 +1283,7 @@
     padding: 16px 10px;
   }
   .getStarted {
-    padding: 8px 22px;
+    padding: 16px 22px;
     font-size: 16px;
   }
   .getStarted img {
@@ -1291,7 +1377,7 @@
     padding: 16px 10px;
   }
   .getStarted {
-    padding: 8px 22px;
+    padding: 16px 22px;
     font-size: 16px;
   }
   .getStarted img {
@@ -1369,93 +1455,12 @@
   .emailInput {
     width: 100%;
   }
+  .input {
+    width: 60%;
+  }
   .getStarted {
     white-space: nowrap;
-    padding: 8px 10px;
-  }
-  .loginHeader {
-    height: 130vh;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
-      url(imgs/13.jpg);
-    background-size: cover;
-  }
-  .container {
-    height: 105vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .formBox {
-    position: relative;
-    height: fit-content;
-    width: fit-content;
-    padding: 30px 35px;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-  }
-
-  .formBox h1 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 25px;
-  }
-
-  .formBox input {
-    height: 45px;
-    width: 100%;
-    color: #fff;
-    background-color: #333;
-    padding-left: 15px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
-  }
-
-  .formInput {
-    margin-bottom: 15px;
-  }
-
-  .signInButton {
-    height: 45px;
-    width: 100%;
-    color: #fff;
-    background-color: #e50914;
-    outline: none;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    cursor: pointer;
-  }
-
-  .newto {
-    font-size: 15px;
-    color: #737373;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .newto a {
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .newto a:hover {
-    color: #fff;
-    font-weight: 600;
-    text-decoration: underline;
-  }
-
-  .recaptcha {
-    font-size: 13px;
-    color: #8c8c8c;
-    width: 100%;
+    padding: 20px 10px;
   }
 }
 
@@ -1473,9 +1478,12 @@
   .emailInput {
     width: 100%;
   }
+  .input {
+    width: 60%;
+  }
   .getStarted {
     white-space: nowrap;
-    padding: 8px 10px;
+    padding: 20px 10px;
   }
 }
 
@@ -1493,9 +1501,12 @@
   .emailInput {
     width: 100%;
   }
+  .input {
+    width: 60%;
+  }
   .getStarted {
     white-space: nowrap;
-    padding: 8px 10px;
+    padding: 20px 10px;
   }
   .faqQuestions {
     width: 80%;
@@ -1514,7 +1525,7 @@
     background-size: cover;
   }
   .container {
-    height: 105vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     align-items: center;
