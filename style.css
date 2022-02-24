@@ -40,9 +40,10 @@
   padding: 8px 20px;
   white-space: nowrap;
   cursor: pointer;
+  color: #fff;
 }
 
-.signIn a {
+.nav a {
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -94,6 +95,10 @@
   display: flex;
   background-color: white;
   justify-content: space-between;
+}
+
+.emailInput a {
+  text-decoration: none;
 }
 
 .input {
@@ -304,20 +309,29 @@
   font-size: 16px;
 }
 
+.formBox a {
+  text-decoration: none;
+}
+
 .formInput {
   margin-bottom: 15px;
 }
 
 .signInButton {
-  height: 50px;
+  height: fit-content;
+  padding: 17px 0px;
   width: 100%;
   color: #fff;
+  text-align: center;
   background-color: #e50914;
   outline: none;
   border: none;
   font-size: 16px;
   font-weight: 700;
   margin-top: 15px;
+  text-decoration: none;
+  outline: none;
+  border: none;
   margin-bottom: 25px;
   cursor: pointer;
 }
@@ -365,6 +379,11 @@
 .footer p {
   font-size: 16px;
   margin-bottom: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #757575;
 }
 
 .footer .footer-cols {

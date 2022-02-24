@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imgs\favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="browsestyle.css">
+  <title>Netflix | Browse</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="imgs\logo.png" alt=""></a>
+      <div class="items">
+        <a href="#"><p>Series</p></a>
+        <a href="browsepage.html"><p>Movies</p></a>
+      </div>
+    </nav>
+    <div class="heroText">
+      <h1>Watch Joker Now</h1>
+      <p>Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks, the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he is part of the world around him.</p>
+      <button onclick = "vidPlayback()">Play</button>
+    </div>
+  </header>
+  <section>
+      <div class="genre">
+        <p>Drama</p>
+        <div class="slides">
+          <img src="imgs\Movies\Drama\fight-club-small.jpg" alt="Movie cover" onclick="movieCard1(), displayText1(0)">
+          <img src="imgs\Movies\Drama\the-prestige-small.jpg" alt="Movie cover" onclick="movieCard1(), displayText1(1)">
+          <img src="imgs\Movies\Drama\the-social-network-small.jpg" alt="Movie cover" onclick="movieCard1(), displayText1(2)">
+          <img src="imgs\Movies\Drama\the-revenant-small.jpg" alt="Movie cover" onclick="movieCard1(), displayText1(3)">
+          <img src="imgs\Movies\Drama\kings-speech-small.jpg" alt="Movie cover" onclick="movieCard1(), displayText1(4)">
+        </div>
+      </div>
+      <div class="movieCard" id="movieCard1">
+        <div class="cardText">
+          <h2 class="name" id="name1"></h2>
+          <p class="description" id="description1"></p>
+          <button onclick="vidPlayback()">Play</button>
+        </div>
+        <img onclick="movieCard1()" src="imgs/cancel.svg" alt="cancel">
+      </div>
+      <div class="genre">
+        <p>Thriller</p>
+        <div class="slides">
+          <img src="imgs\Movies\Thriller\nightcrawler-small.jpg" alt="Movie cover" onclick="movieCard2(), displayText2(5)">
+          <img src="imgs\Movies\Thriller\lambs-small.jpg" alt="Movie cover" onclick="movieCard2(), displayText2(6)">
+          <img src="imgs\Movies\Thriller\black-swan-small.jpg" alt="Movie cover" onclick="movieCard2(), displayText2(7)">
+          <img src="imgs\Movies\Thriller\joker-small.jpg" alt="Movie cover" onclick="movieCard2(), displayText2(8)">
+          <img src="imgs\Movies\Thriller\a-quiet-place-small.jpg" alt="Movie cover" onclick="movieCard2(), displayText2(9)">
+        </div>
+      </div>
+      <div class="movieCard" id="movieCard2">
+        <div class="cardText">
+          <h2 class="name" id="name2"></h2>
+          <p class="description" id="description2"></p>
+          <button onclick="vidPlayback()">Play</button>
+        </div>
+        <img onclick="movieCard2()" src="imgs/cancel.svg" alt="cancel">
+      </div>
+      <div class="genre">
+        <p>Children</p>
+        <div class="slides">
+          <img src="imgs\Movies\Children\translyvania-small.jpg" alt="Movie cover" onclick="movieCard3(), displayText3(10)">
+          <img src="imgs\Movies\Children\spiritedaway-small.jpg" alt="Movie cover" onclick="movieCard3(), displayText3(11)">
+          <img src="imgs\Movies\Children\up-small.jpg" onclick="movieCard3(), displayText3(12)">
+          <img src="imgs\Movies\Children\frozen-small.jpg" alt="Movie cover" onclick="movieCard3(), displayText3(13)">
+          <img src="imgs\Movies\Children\despicable-me-small.jpg" alt="Movie cover" onclick="movieCard3(), displayText3(14)">
+        </div>
+      </div>
+      <div class="movieCard" id="movieCard3">
+        <div class="cardText">
+          <h2 class="name" id="name3"></h2>
+          <p class="description" id="description3"></p>
+          <button onclick="vidPlayback()">Play</button>
+        </div>
+        <img onclick="movieCard3()" src="imgs/cancel.svg" alt="cancel">
+      </div>
+      <div class="genre">
+        <p>Suspense</p>
+        <div class="slides">
+          <img src="imgs\Movies\Suspense\shutter-small.jpg" alt="Movie cover" onclick="movieCard4(), displayText4(15)">
+          <img src="imgs\Movies\Suspense\seven-small.jpg" alt="Movie cover" onclick="movieCard4(), displayText4(16)">
+          <img src="imgs\Movies\Suspense\prisoners-small.jpg" alt="Movie cover" onclick="movieCard4(), displayText4(17)">
+          <img src="imgs\Movies\Suspense\zodiac-small.jpg" alt="Movie cover" onclick="movieCard4(), displayText4(18)">
+          <img src="imgs\Movies\Suspense\gone-girl-small.jpg" alt="Movie cover" onclick="movieCard4(), displayText4(19)">
+        </div>
+      </div>
+      <div class="movieCard" id="movieCard4">
+        <div class="cardText">
+          <h2 class="name" id="name4"></h2>
+          <p class="description" id="description4"></p>
+          <button onclick="vidPlayback()">Play</button>
+        </div>
+        <img onclick="movieCard4()" src="imgs/cancel.svg" alt="cancel">
+      </div>
+      <div class="genre">
+        <p>Romance</p>
+        <div class="slides">
+          <img src="imgs\Movies\Romance\la-la-land-small.jpg" alt="Movie cover" onclick="movieCard5(), displayText5(20)">
+          <img src="imgs\Movies\Romance\titanic-small.jpg" alt="Movie cover" onclick="movieCard5(), displayText5(21)">
+          <img src="imgs\Movies\Romance\a-star-is-born-small.jpg" alt="Movie cover" onclick="movieCard5(), displayText5(22)">
+          <img src="imgs\Movies\Romance\the-notebook-small.jpg" alt="Movie cover" onclick="movieCard5(), displayText5(23)">
+          <img src="imgs\Movies\Romance\blue-valentine-small.jpg" alt="Movie cover" onclick="movieCard5(), displayText5(24)">
+        </div>
+      </div>
+      <div class="movieCard" id="movieCard5">
+        <div class="cardText">
+          <h2 class="name" id="name5"></h2>
+          <p class="description" id="description5"></p>
+          <button onclick="vidPlayback()">Play</button>
+        </div>
+        <img onclick="movieCard5()" src="imgs/cancel.svg" alt="cancel">
+      </div>
+  </section>
+  <div class="overlay" id="overlay" onclick="vidPlayback()">
+      <div class="videoPlayback">
+          <video src="videos/movie.mp4" controls></video>
+      </div>
+  </div>
+  <div class="footerbg">
+    <footer class="footer">
+      <p>Questions? <a href="#">Contact us</a></p>
+      <div class="footer-cols">
+        <ul>
+          <li>FAQ</li>
+          <li>Investor Relations</li>
+          <li>Privacy</li>
+          <li>Speed Test</li>
+        </ul>
+        <ul>
+          <li>Help Center</li>
+          <li>Jobs</li>
+          <li>Cookie Preferences</li>
+          <li>Legal Notices</li>
+        </ul>
+        <ul>
+          <li>Account</li>
+          <li>Ways to Watch</li>
+          <li>Corporate Information</li>
+          <li>Netflix Originals</li>
+        </ul>
+        <ul>
+          <li>Media Center</li>
+          <li>Terms of Use</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
